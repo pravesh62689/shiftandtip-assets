@@ -1,0 +1,1993 @@
+{
+  "meta": {
+    "version": "2026.12.0",
+    "verifiedOn": "2026-11-24",
+    "federal": {
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "weeklyOT": 40,
+      "sources": [
+        {
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state"
+        },
+        {
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    }
+  },
+  "states": [
+    {
+      "code": "AL",
+      "name": "Alabama",
+      "slug": "alabama",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "No state minimum wage law; federal FLSA standards apply."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Alabama No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Alabama 11 | $7.25 | $5.12 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "AK",
+      "name": "Alaska",
+      "slug": "alaska",
+      "minWage": 14,
+      "tippedCashWage": 14,
+      "maxTipCredit": 0,
+      "tipCreditAllowed": false,
+      "ot": {
+        "weekly": 40,
+        "daily": 8
+      },
+      "notes": [
+        "State site wins over DOL table: Alaska Statute AS 23.10.065 strictly prohibits tip credits; employers must pay the full minimum wage in cash.",
+        "Alaska Ballot Measure 1 enacted stepped minimum wage increases: $13.00/hr on July 1, 2025 and $14.00/hr on July 1, 2026.",
+        "Alaska requires daily overtime after 8 hours per day as well as weekly overtime after 40 hours for employers with 4 or more employees (AS 23.10.060)."
+      ],
+      "effectiveFrom": "2025-07-01",
+      "nextChange": {
+        "date": "2026-07-01",
+        "minWage": 14
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "Alaska Department of Labor and Workforce Development",
+          "url": "https://labor.alaska.gov/lss/whhome.htm",
+          "quote": "As of July 1, 2026, The Alaska minimum wage is increasing from $13.00 to $14.00 per hour.",
+          "retrievedAt": "2026-11-24T16:11:44.562Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Alaska | $14.00",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "AZ",
+      "name": "Arizona",
+      "slug": "arizona",
+      "minWage": 15.15,
+      "tippedCashWage": 12.15,
+      "maxTipCredit": 3,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "A.R.S. § 23-363 permits employer to pay up to $3.00 per hour less than the minimum wage for tipped employees."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Arizona Basic Minimum Rate (per hour): $15.15",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Arizona | $15.15 | $3.00 | $12.15 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas",
+      "slug": "arkansas",
+      "minWage": 11,
+      "tippedCashWage": 2.63,
+      "maxTipCredit": 8.37,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Applicable to employers of 4 or more employees under Ark. Code § 11-4-210."
+      ],
+      "effectiveFrom": "2021-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Arkansas Applicable to employers with 4 or more employees Basic Minimum Rate (per hour): $11.00 Premium Pay After Designated Hours 1 : Weekly - 40",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Arkansas | $11.00 | $8.37 | $2.63 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "CA",
+      "name": "California",
+      "slug": "california",
+      "minWage": 16.9,
+      "tippedCashWage": 16.9,
+      "maxTipCredit": 0,
+      "tipCreditAllowed": false,
+      "ot": {
+        "weekly": 40,
+        "daily": 8,
+        "dailyDT": 12,
+        "seventhDay": true
+      },
+      "notes": [
+        "State site wins over DOL table: California Labor Code Section 351 strictly prohibits tip credits; employers must pay the full minimum wage before tips.",
+        "California requires daily overtime (1.5x) after 8 hours up to 12 hours, double time (2.0x) after 12 hours, and 1.5x for first 8 hours on 7th consecutive day (2.0x beyond 8 hours) under Labor Code Section 510.",
+        "Alternative workweek schedules not modelled. Higher local minimum wages apply in many CA cities."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": "2026-01-01",
+        "minWage": 16.9
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "California DIR — Minimum Wage FAQ",
+          "url": "https://www.dir.ca.gov/dlse/faq_minimumwage.htm",
+          "quote": "Effective January 1, 2026, the minimum wage is $16.90 per hour for all employers",
+          "retrievedAt": "2026-11-24T16:08:40.402Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "California | $16.90",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "CO",
+      "name": "Colorado",
+      "slug": "colorado",
+      "minWage": 15.16,
+      "tippedCashWage": 12.14,
+      "maxTipCredit": 3.02,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40,
+        "daily": 12
+      },
+      "notes": [
+        "State site wins over DOL table: Colorado Department of Labor and Employment (CDLE) COMPS Order #40 / #41 establishes minimum wage at $14.81 and limits tip credit to $3.02/hr.",
+        "Overtime (1.5x) required after 40 hours per workweek, 12 hours per workday, or 12 consecutive hours without regard to start/end time under COMPS Order Rule 4.",
+        "Denver municipal rate ($18.81/hr) is higher but statewide COMPS Order rate is modelled."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Colorado Basic Minimum Rate (per hour): $15.16 Premium Pay After Designated Hours 1 : Daily - 12, Weekly - 40 Minimum wage rate and overtime provisions applicable to retail and service, commercial sup",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Colorado | $15.16 | $3.02 | $12.14 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut",
+      "slug": "connecticut",
+      "minWage": null,
+      "tippedCashWage": null,
+      "maxTipCredit": null,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Hotel and restaurant tipped cash wage is $6.38 (tip credit $9.97). Bartenders tipped cash wage is $8.23 (tip credit $8.12) under C.G.S. § 31-58."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Connecticut Basic Minimum Rate (per hour): $16.94 Premium Pay After Designated Hours 1 : Weekly - 40 In restaurants and hotel restaurants, for the 7th consecutive day of work, premium pay is required ",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        }
+      ],
+      "verifiedOn": null
+    },
+    {
+      "code": "DE",
+      "name": "Delaware",
+      "slug": "delaware",
+      "minWage": 15,
+      "tippedCashWage": 2.23,
+      "maxTipCredit": 12.77,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Delaware reached $15.00 statutory minimum wage on January 1, 2025 (19 Del. C. § 902). Cash wage fixed at $2.23."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Delaware Basic Minimum Rate (per hour): $15.00 The State adopts the federal minimum wage rate by reference if the federal rate is greater than the State rate. District of Columbia Basic Minimum Rate (",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Delaware | $15.00 | $12.77 | $2.23 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "DC",
+      "name": "District of Columbia",
+      "slug": "district-of-columbia",
+      "minWage": 18.4,
+      "tippedCashWage": 10.3,
+      "maxTipCredit": 8.1,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Initiative 82 phases out tip credits completely in DC by 2027."
+      ],
+      "effectiveFrom": "2024-07-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "District of Columbia 3 | $18.40 | $8.10 | $10.30 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "District of Columbia 3 | $18.40 | $8.10 | $10.30 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "FL",
+      "name": "Florida",
+      "slug": "florida",
+      "minWage": 15,
+      "tippedCashWage": 11.98,
+      "maxTipCredit": 3.02,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "State site wins over DOL table: Florida Department of Commerce / Florida Constitution Amendment 2 (Art. X, § 24) sets rate increases on Sept 30 annually.",
+        "Minimum wage is $13.00 (through Sept 29, 2025), $14.00 (Sept 30, 2025), and $15.00 (Sept 30, 2026).",
+        "Florida Constitution fixes the maximum tip credit at exactly $3.02 per hour; minimum cash wage is $9.98 (to 9/29/25) and $10.98 (effective 9/30/25)."
+      ],
+      "effectiveFrom": "2024-09-30",
+      "nextChange": {
+        "date": "2025-09-30",
+        "minWage": 14
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Florida Basic Minimum Rate (per hour): $15.00 The Florida minimum wage is scheduled to be updated annually based on a set formula beginning January 1, 2028.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Florida 4 | $15.00 | $3.02 | $11.98 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "GA",
+      "name": "Georgia",
+      "slug": "georgia",
+      "minWage": 5.15,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "State site wins over DOL table: Georgia state statutory rate is $5.15/hr (O.C.G.A. § 34-4-3), but the federal FLSA rate ($7.25 / $2.13 cash / $5.12 credit) governs all covered employers.",
+        "Federal FLSA standards model actual pay for hospitality and hourly workers."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Georgia Applicable to employers of 6 or more employees Basic Minimum Rate (per hour): $5.15 The State law excludes from coverage any employment that is subject to the federal Fair Labor Standards Act ",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Georgia 11 | $7.25 | $5.12 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "HI",
+      "name": "Hawaii",
+      "slug": "hawaii",
+      "minWage": 16,
+      "tippedCashWage": 14.75,
+      "maxTipCredit": 1.25,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Tip credit of $1.25 permitted only if combined cash wage and tips exceed the minimum wage by at least $7.00 per hour (HRS § 387-2)."
+      ],
+      "effectiveFrom": "2024-01-01",
+      "nextChange": {
+        "date": "2026-01-01",
+        "minWage": 16
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Hawaii Basic Minimum Rate (per hour): $16.00 Premium Pay After Designated Hours 1 : Weekly - 40 An employee earning a guaranteed monthly compensation of $4,000 or more is exempt from the State minimum",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Hawaii* | $16.00 | $1.25 | $14.75",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "ID",
+      "name": "Idaho",
+      "slug": "idaho",
+      "minWage": 7.25,
+      "tippedCashWage": 3.35,
+      "maxTipCredit": 3.9,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Idaho Code § 44-1502 sets tipped cash wage at $3.35 per hour."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Idaho Basic Minimum Rate (per hour): $7.25",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Idaho | $7.25 | $3.90 | $3.35 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "IL",
+      "name": "Illinois",
+      "slug": "illinois",
+      "minWage": 15,
+      "tippedCashWage": 9,
+      "maxTipCredit": 6,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "State site wins over DOL table: Illinois Department of Labor enforces 820 ILCS 105/4, which sets the tipped cash wage at exactly 60% of basic minimum wage ($9.00) and max tip credit at 40% ($6.00).",
+        "Illinois reached the $15.00 statutory minimum wage on January 1, 2025.",
+        "Chicago municipal ordinance is phasing out the tip credit by 2028, but 60% statewide rule governs state model."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "Illinois Department of Labor — Minimum Wage Law",
+          "url": "https://labor.illinois.gov/laws-rules/fls/minimum-wage-law.html",
+          "quote": "Guarantees a minimum wage of $15.00 per hour for workers 18 years of age and older.",
+          "retrievedAt": "2026-11-24T16:10:37.172Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Illinois | $15.00 | 40% of the applicable minimum wage ($6.00) | $9.00 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "Illinois Department of Labor",
+          "url": "https://labor.illinois.gov/laws-rules/fls/minimum-wage-law.html",
+          "quote": "An employer where gratuities are paid to employee, may pay 60% of the minimum wage to its employees.",
+          "retrievedAt": "2026-11-24T16:10:37.172Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "IN",
+      "name": "Indiana",
+      "slug": "indiana",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "IC 22-2-2-4 incorporates federal minimum wage rates."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Indiana Applicable to employers of 2 or more employees Basic Minimum Rate (per hour): $7.25 Premium Pay After Designated Hours 1 : Weekly - 40",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Indiana | $7.25 | $5.12 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "IA",
+      "name": "Iowa",
+      "slug": "iowa",
+      "minWage": 7.25,
+      "tippedCashWage": 4.35,
+      "maxTipCredit": 2.9,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Iowa Code § 91D.1 sets tipped cash wage at 60% of basic minimum wage ($4.35/hr)."
+      ],
+      "effectiveFrom": "2008-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Iowa Basic Minimum Rate (per hour): $7.25 The Iowa minimum wage equals the federal minimum wage rate if it is set below the federal rate.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Iowa | $7.25 | 40% of the applicable minimum wage ($2.90) | $4.35 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "KS",
+      "name": "Kansas",
+      "slug": "kansas",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "K.S.A. § 44-1203 aligns with federal standards."
+      ],
+      "effectiveFrom": "2010-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Kansas Basic Minimum Rate (per hour): $7.25 The State law excludes from coverage any employment that is subject to the federal Fair Labor Standards Act.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Kansas 12 | $7.25 | $5.12 | $2.13 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "KY",
+      "name": "Kentucky",
+      "slug": "kentucky",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "KRS § 337.275 aligns with federal FLSA rates."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Kentucky Basic Minimum Rate (per hour): $7.25 Premium Pay After Designated Hours 1 : Weekly - 40, 7th day The 7th day overtime law, which is separate from the minimum wage law, requires employers who ",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Kentucky | $7.25 | $5.12 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana",
+      "slug": "louisiana",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "No state minimum wage statute; federal FLSA applies."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Louisiana No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Louisiana 11 | $7.25 | $5.12 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "ME",
+      "name": "Maine",
+      "slug": "maine",
+      "minWage": 15.1,
+      "tippedCashWage": 7.55,
+      "maxTipCredit": 7.55,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "26 MRS § 664 requires tipped cash wage to equal at least 50% of the state minimum wage."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Maine Basic Minimum Rate (per hour): $15.10 Premium Pay After Designated Hours 1 : Weekly - 40 If the highest federal minimum wage is increased in excess of the State minimum wage in effect, then the ",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Maine | $15.10 | 50% of the applicable minimum wage ($7.55) | $7.55 | More than $191",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "MD",
+      "name": "Maryland",
+      "slug": "maryland",
+      "minWage": 15,
+      "tippedCashWage": 3.63,
+      "maxTipCredit": 11.37,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Md. Code, Lab. & Empl. § 3-413 sets $15.00 minimum wage and $3.63 tipped cash wage."
+      ],
+      "effectiveFrom": "2024-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Maryland Basic Minimum Rate (per hour): $15.00 Premium Pay After Designated Hours 1 : Weekly - 40",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Maryland | $15.00 | $11.37 | $3.63 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "MA",
+      "name": "Massachusetts",
+      "slug": "massachusetts",
+      "minWage": 15,
+      "tippedCashWage": 6.75,
+      "maxTipCredit": 8.25,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "M.G.L. c. 151 § 7 sets service rate (tipped cash wage) at $6.75."
+      ],
+      "effectiveFrom": "2023-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Massachusetts Basic Minimum Rate (per hour): $15.00 Premium Pay After Designated Hours 1 : Weekly - 40 In no case shall the Massachusetts minimum wage rate be less than $0.50 higher than the effective",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Massachusetts | $15.00 | $8.25 | $6.75 | More than $20",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "MI",
+      "name": "Michigan",
+      "slug": "michigan",
+      "minWage": 13.73,
+      "tippedCashWage": 5.49,
+      "maxTipCredit": 8.24,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Subject to ongoing implementation of Michigan Supreme Court ruling on Improved Workforce Opportunity Wage Act."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Michigan Applicable to employers of 2 or more employees Basic Minimum Rate (per hour): $13.73 The Michigan minimum wage is scheduled to increase on January 1, 2027 to $15.00 per hour and then will be ",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Michigan 15 | $13.73 | $8.24 | $5.49 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota",
+      "slug": "minnesota",
+      "minWage": 11.41,
+      "tippedCashWage": 11.41,
+      "maxTipCredit": 0,
+      "tipCreditAllowed": false,
+      "ot": {
+        "weekly": 48
+      },
+      "notes": [
+        "Minn. Stat. § 177.24 strictly prohibits tip credits; employers must pay the full minimum wage in direct cash. State overtime threshold is 48 hours, though FLSA 40 hours applies to covered employers."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Minnesota Basic Minimum Rate (per hour): $11.41 Premium Pay After Designated Hours 1 : Weekly - 48 The minimum wage is adjusted annually based on a set formula.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Minnesota | $11.41",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi",
+      "slug": "mississippi",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "No state minimum wage law; federal FLSA applies."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Mississippi No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Mississippi 11 | $7.25 | $5.12 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "MO",
+      "name": "Missouri",
+      "slug": "missouri",
+      "minWage": 15,
+      "tippedCashWage": 7.5,
+      "maxTipCredit": 7.5,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Voters approved Proposition A in Nov 2024: $13.75 in 2025, $15.00 in 2026. Tipped cash wage is 50% of basic minimum wage."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": "2026-01-01",
+        "minWage": 15
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Missouri Basic Minimum Rate (per hour): $15.00 Premium Pay After Designated Hours 2 : Weekly - 40 In addition to the exemption for federally covered employment, the law exempts, among others, employee",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Missouri | $15.00 | 50% of the applicable minimum wage ($7.50) | $7.50 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "MT",
+      "name": "Montana",
+      "slug": "montana",
+      "minWage": null,
+      "tippedCashWage": null,
+      "maxTipCredit": null,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "MCA § 39-3-405 prohibits tip credits; employers must pay the full minimum wage."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Montana Businesses with gross annual sales of more than $110,000 Basic Minimum Rate (per hour): $10.85 Premium Pay After Designated Hours 1 : Weekly - 40 Businesses not covered by the Fair Labor Stand",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        }
+      ],
+      "verifiedOn": null
+    },
+    {
+      "code": "NE",
+      "name": "Nebraska",
+      "slug": "nebraska",
+      "minWage": 15,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 12.87,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Neb. Rev. Stat. § 48-1203 sets $13.50 in 2025 ($15.00 in 2026). Cash wage remains $2.13."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": "2026-01-01",
+        "minWage": 15
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Nebraska Applicable to employers of 4 or more employees Basic Minimum Rate (per hour): $15.00",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Nebraska | $15.00 | $12.87 | $2.13 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "NV",
+      "name": "Nevada",
+      "slug": "nevada",
+      "minWage": 12,
+      "tippedCashWage": 12,
+      "maxTipCredit": 0,
+      "tipCreditAllowed": false,
+      "ot": {
+        "weekly": 40,
+        "daily": 8,
+        "dailyThreshold": 18
+      },
+      "notes": [
+        "State site wins over DOL table: Nevada Office of the Labor Commissioner / Nevada Constitution Art. 15 § 16 prohibits tip credits; full minimum wage ($12.00) must be paid.",
+        "Nevada eliminated the two-tier health insurance minimum wage system effective July 1, 2024, establishing a single uniform rate of $12.00/hr.",
+        "Under NRS 608.018, daily overtime (1.5x after 8 hours in a 24-hr period) applies to employees earning less than 1.5x the minimum wage ($18.00/hr). Employees earning $18.00/hr or more are exempt from daily overtime and subject only to weekly overtime after 40 hours."
+      ],
+      "effectiveFrom": "2024-07-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Nevada Basic Minimum Rate (per hour): $12.00 Premium Pay After Designated Hours: Employees earning less than 1.5 times the state minimum wage are entitled to premium pay for hours worked in excess of ",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Nevada | $12.00",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "NH",
+      "name": "New Hampshire",
+      "slug": "new-hampshire",
+      "minWage": 7.25,
+      "tippedCashWage": 3.27,
+      "maxTipCredit": 3.98,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "RSA 279:21 requires tipped cash wage to be at least 45% of minimum wage ($3.26/hr)."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "New Hampshire Basic Minimum Rate (per hour): $7.25 Premium Pay After Designated Hours 1 : Weekly - 40 The New Hampshire minimum wage equals the federal minimum wage when set below the federal rate.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "New Hampshire | $7.25 | $3.98 | $3.27 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "NJ",
+      "name": "New Jersey",
+      "slug": "new-jersey",
+      "minWage": 15.92,
+      "tippedCashWage": 6.05,
+      "maxTipCredit": 9.87,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "N.J.S.A. 34:11-56a4 sets $15.49 basic rate and $5.26 tipped cash wage for 2025."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "New Jersey Basic Minimum Rate (per hour): $15.92 Premium Pay After Designated Hours 1 : Weekly - 40 The minimum wage is adjusted annually based on a set formula. There is a minimum wage of $15.23 per ",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "New Jersey 6 | $15.92 | $9.87 | $6.05 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "NM",
+      "name": "New Mexico",
+      "slug": "new-mexico",
+      "minWage": 12,
+      "tippedCashWage": 3,
+      "maxTipCredit": 9,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "NMSA 1978 § 50-4-22 sets $12.00 minimum wage and $3.00 tipped cash wage."
+      ],
+      "effectiveFrom": "2023-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "New Mexico Basic Minimum Rate (per hour): $12.00 Premium Pay After Designated Hours 1 : Weekly - 40",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "New Mexico | $12.00 | $9.00 | $3.00 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "NY",
+      "name": "New York",
+      "slug": "new-york",
+      "minWage": 17,
+      "tippedCashWage": 11.35,
+      "maxTipCredit": 5.65,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "State site wins over DOL table: New York State Department of Labor (NY Labor Law § 652 & Hospitality Wage Order 12 NYCRR Part 146) enforces regional minimum wage tiers.",
+        "NYC, Long Island, & Westchester: $16.50 min wage, $11.00 food service tipped cash wage, $5.50 max tip credit (increasing to $17.00 / $11.35 cash / $5.65 credit on Jan 1, 2026).",
+        "Rest of State (Upstate): $15.50 min wage, $10.35 food service tipped cash wage, $5.15 max tip credit (increasing to $16.00 / $10.70 cash / $5.30 credit on Jan 1, 2026)."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": "2026-01-01",
+        "minWage": 17
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "NY DOL — Minimum Wage",
+          "url": "https://dol.ny.gov/minimum-wage",
+          "quote": "New York City\n$17.00\n$14.15 Cash Wage\n$2.85 Tip Credit\n$11.35 Cash Wage\n$5.65 Tip Credit",
+          "retrievedAt": "2026-11-24T16:09:58.272Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "NY DOL — Minimum Wage (Food Service)",
+          "url": "https://dol.ny.gov/minimum-wage",
+          "quote": "Tipped Food Service Workers as of 01/01/2027*\nNew York City\n$17.00\n$11.35 Cash Wage\n$5.65 Tip Credit",
+          "retrievedAt": "2026-11-24T16:09:58.272Z"
+        },
+        {
+          "field": "maxTipCredit",
+          "label": "NY DOL — Minimum Wage (Tip Credit)",
+          "url": "https://dol.ny.gov/minimum-wage",
+          "quote": "$5.65 Tip Credit",
+          "retrievedAt": "2026-11-24T16:09:58.272Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24",
+      "regions": [
+        {
+          "name": "New York City",
+          "minWage": 17,
+          "tippedCashWage": 11.35,
+          "maxTipCredit": 5.65,
+          "serviceCashWage": 14.15,
+          "serviceTipCredit": 2.85,
+          "sources": [
+            {
+              "label": "NY DOL — Minimum Wage (New York City)",
+              "url": "https://dol.ny.gov/minimum-wage",
+              "quote": "New York City\n$17.00\n$14.15 Cash Wage\n$2.85 Tip Credit\n$11.35 Cash Wage\n$5.65 Tip Credit",
+              "retrievedAt": "2026-11-24T16:09:58.272Z"
+            }
+          ]
+        },
+        {
+          "name": "Long Island & Westchester",
+          "minWage": 17,
+          "tippedCashWage": 11.35,
+          "maxTipCredit": 5.65,
+          "serviceCashWage": 14.15,
+          "serviceTipCredit": 2.85,
+          "sources": [
+            {
+              "label": "NY DOL — Minimum Wage (Long Island & Westchester)",
+              "url": "https://dol.ny.gov/minimum-wage",
+              "quote": "Long Island & Westchester\n$17.00\n$14.15 Cash Wage\n$2.85 Tip Credit\n$11.35 Cash Wage\n$5.65 Tip Credit",
+              "retrievedAt": "2026-11-24T16:09:58.272Z"
+            }
+          ]
+        },
+        {
+          "name": "Remainder of New York State",
+          "minWage": 16,
+          "tippedCashWage": 10.7,
+          "maxTipCredit": 5.3,
+          "serviceCashWage": 13.3,
+          "serviceTipCredit": 2.7,
+          "sources": [
+            {
+              "label": "NY DOL — Minimum Wage (Remainder of New York State)",
+              "url": "https://dol.ny.gov/minimum-wage",
+              "quote": "Remainder of  New York State\n$16.00\n$13.30 Cash Wage\n$2.70 Tip Credit\n$10.70 Cash Wage\n$5.30 Tip Credit",
+              "retrievedAt": "2026-11-24T16:09:58.272Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina",
+      "slug": "north-carolina",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "N.C.G.S. § 95-25.3 incorporates federal minimum wage rates."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "North Carolina Basic Minimum Rate (per hour): $7.25 Premium Pay After Designated Hours 1 : Weekly - 40 Premium pay is required after 45 hours a week in seasonal amusements or recreational establishmen",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "North Carolina 13 | $7.25 | $5.12 | $2.13 | More than $20",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "ND",
+      "name": "North Dakota",
+      "slug": "north-dakota",
+      "minWage": 7.25,
+      "tippedCashWage": 4.86,
+      "maxTipCredit": 2.39,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "N.D.A.C. § 46-02-07 sets tipped cash wage at 67% of the minimum wage ($4.86/hr)."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "North Dakota Basic Minimum Rate (per hour): $7.25 Premium Pay After Designated Hours 1 : Weekly - 40 Northern Mariana Islands Basic Minimum Rate (per hour): $7.25",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "North Dakota | $7.25 | 33% of the applicable minimum wage ($2.39) | $4.86 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "OH",
+      "name": "Ohio",
+      "slug": "ohio",
+      "minWage": 11,
+      "tippedCashWage": 5.5,
+      "maxTipCredit": 5.5,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Ohio Const. Art. II § 34a sets tipped cash wage at 50% of the state minimum wage ($5.35/hr)."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Ohio Employers with annual gross receipts of $405,000 or more Basic Minimum Rate (per hour): $11.00 Premium Pay After Designated Hours 1 : Weekly - 40 Employers with annual gross receipts under $405,0",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Ohio 7 Employers with annual gross receipts of $405,000 or more | $11.00 | $5.50 | $5.50 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma",
+      "slug": "oklahoma",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "40 O.S. § 197.16 permits tip credit up to 50% of minimum wage."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Oklahoma Employers with ten or more full time employees at any one location or employers with annual gross sales over $100,000 irrespective of number of full time employees. Basic Minimum Rate (per ho",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Oklahoma 8 | $7.25 | $5.12 | $2.13 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "OR",
+      "name": "Oregon",
+      "slug": "oregon",
+      "minWage": 15.55,
+      "tippedCashWage": 15.55,
+      "maxTipCredit": 0,
+      "tipCreditAllowed": false,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "ORS 653.035 prohibits tip credits; employers must pay the full minimum wage. Portland metro rate is $15.95/hr."
+      ],
+      "effectiveFrom": "2024-07-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Oregon Basic Minimum Rate (per hour): $15.55 (standard state rate); $16.80 (Portland Metro Area); $14.55 (Non-Urban counties) Premium Pay After Designated Hours 1 : Weekly - 40 Premium pay required af",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Oregon The Oregon minimum wage varies by region. | $15.55 (standard statewide); $16.80 (Portland metro); $14.55 (nonurban counties)",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania",
+      "slug": "pennsylvania",
+      "minWage": 7.25,
+      "tippedCashWage": 2.83,
+      "maxTipCredit": 4.42,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "State site wins over DOL table: Pennsylvania 43 P.S. § 333.104 and 34 Pa. Code § 231.22 set the tipped cash wage at $2.83/hr (tip credit $4.42/hr).",
+        "PA DLI updated tipped worker regulations to raise the qualification threshold to $135/month in tips and codify 80/20 non-tipped duty limits."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "Pennsylvania Department of Labor & Industry",
+          "url": "https://www.dli.pa.gov/Individuals/Labor-Management-Relations/llc/minimum-wage/Pages/default.aspx",
+          "quote": "Employees being paid less than $7.25/hour",
+          "retrievedAt": "2026-11-24T16:10:17.328Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Pennsylvania | $7.25 | $4.42 | $2.83 | $135 per month",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "Pennsylvania Department of Labor & Industry",
+          "url": "https://www.dli.pa.gov/Individuals/Labor-Management-Relations/llc/minimum-wage/Pages/default.aspx",
+          "quote": "Tipped workers making less than $2.83/hour",
+          "retrievedAt": "2026-11-24T16:10:17.328Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island",
+      "slug": "rhode-island",
+      "minWage": 16,
+      "tippedCashWage": 3.89,
+      "maxTipCredit": 12.11,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "R.I. Gen. Laws § 28-12-5 reached $15.00 on Jan 1, 2025; tipped cash wage is $3.89."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Rhode Island Basic Minimum Rate (per hour): $16.00 Premium Pay After Designated Hours 1 : Weekly - 40 Time and one-half premium pay for work on Sundays and holidays in retail and certain other busines",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Rhode Island | $16.00 | $12.11 | $3.89 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina",
+      "slug": "south-carolina",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "No state minimum wage law; federal FLSA applies."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "South Carolina No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current federal minimum wage of $7.25 per hour.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "South Carolina 11 | $7.25 | $5.12 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota",
+      "slug": "south-dakota",
+      "minWage": 11.85,
+      "tippedCashWage": 5.93,
+      "maxTipCredit": 5.92,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "SDCL § 60-11-3.1 sets tipped cash wage at 50% of the minimum wage ($5.75/hr)."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "South Dakota Basic Minimum Rate (per hour): $11.85 The minimum wage is adjusted annually based on a set formula.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "South Dakota | $11.85 | 50% of the applicable minimum wage ($5.92) | $5.93 | More than $35",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee",
+      "slug": "tennessee",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "No state minimum wage law; federal FLSA applies."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Tennessee No state minimum wage law. Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Tennessee 11 | $7.25 | $5.12 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "TX",
+      "name": "Texas",
+      "slug": "texas",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "State site wins over DOL table: Texas Workforce Commission (TWC) enforces Texas Labor Code Chapter 62, which explicitly incorporates the federal FLSA rate.",
+        "Minimum wage is $7.25, tipped cash wage is $2.13, and max tip credit is $5.12."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Texas Basic Minimum Rate (per hour): $7.25 The State law excludes from coverage any employment that is subject to the federal Fair Labor Standards Act. The Texas State minimum wage law does not contai",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Texas 12 | $7.25 | $5.12 | $2.13 | More than $20",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "UT",
+      "name": "Utah",
+      "slug": "utah",
+      "minWage": 7.25,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Utah Code § 34-40-103 incorporates federal rates."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Utah Basic Minimum Rate (per hour): $7.25 The State law excludes from coverage any employment that is subject to the federal Fair Labor Standards Act.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Utah 12 | $7.25 | $5.12 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "VT",
+      "name": "Vermont",
+      "slug": "vermont",
+      "minWage": 14.42,
+      "tippedCashWage": 7.21,
+      "maxTipCredit": 7.21,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "21 V.S.A. § 384 sets tipped cash wage at 50% of state minimum wage ($7.01/hr)."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Vermont Applicable to employers of two or more employees Basic Minimum Rate (per hour): $14.42 Premium Pay After Designated Hours 1 : Weekly - 40 The Vermont minimum wage is adjusted annually based on",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Vermont | $14.42 | 50% of the applicable minimum wage ($7.21) | $7.21 | More than $120",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "VA",
+      "name": "Virginia",
+      "slug": "virginia",
+      "minWage": 12.77,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 10.64,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Va. Code § 40.1-28.9 sets $12.00 minimum wage and retains $2.13 cash wage."
+      ],
+      "effectiveFrom": "2023-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Virginia Basic Minimum Rate (per hour): $12.77 The Virginia minimum wage is adjusted annually based on a set formula.",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Virginia | $12.77 | $10.64 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "WA",
+      "name": "Washington",
+      "slug": "washington",
+      "minWage": 17.13,
+      "tippedCashWage": 17.13,
+      "maxTipCredit": 0,
+      "tipCreditAllowed": false,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "RCW 49.46.020 strictly prohibits tip credits; employers must pay the full minimum wage."
+      ],
+      "effectiveFrom": "2025-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Washington Basic Minimum Rate (per hour): $17.13 Premium Pay After Designated Hours 1 : Weekly - 40 Premium pay not applicable to employees who request compensating time off in lieu of premium pay. Th",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Washington | $17.13",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "WV",
+      "name": "West Virginia",
+      "slug": "west-virginia",
+      "minWage": 8.75,
+      "tippedCashWage": 2.62,
+      "maxTipCredit": 6.13,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "W. Va. Code § 21-5C-4 sets tipped cash wage at 30% of minimum wage ($2.62/hr). Applies to employers of 6 or more."
+      ],
+      "effectiveFrom": "2016-01-01",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "West Virginia Applicable to employers of 6 or more employees at one location Basic Minimum Rate (per hour): $8.75 Premium Pay After Designated Hours 1 : Weekly - 40",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "West Virginia 10 | $8.75 | 70% of the applicable minimum wage ($6.13) | $2.62 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin",
+      "slug": "wisconsin",
+      "minWage": 7.25,
+      "tippedCashWage": 2.33,
+      "maxTipCredit": 4.92,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "Wis. Stat. § 104.035 sets tipped cash wage at $2.33 per hour."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Wisconsin Basic Minimum Rate (per hour): $7.25 Premium Pay After Designated Hours 1 : Weekly - 40",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Wisconsin 9 | $7.25 | $4.92 | $2.33 | Not specified",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming",
+      "slug": "wyoming",
+      "minWage": 5.15,
+      "tippedCashWage": 2.13,
+      "maxTipCredit": 5.12,
+      "tipCreditAllowed": true,
+      "ot": {
+        "weekly": 40
+      },
+      "notes": [
+        "State statutory rate is $5.15 (Wyo. Stat. § 27-4-202), but federal FLSA applies to covered employers."
+      ],
+      "effectiveFrom": "2009-07-24",
+      "nextChange": {
+        "date": null,
+        "minWage": null
+      },
+      "sources": [
+        {
+          "field": "minWage",
+          "label": "DOL WHD — Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
+          "quote": "Wyoming Basic Minimum Rate (per hour): $5.15 Employers subject to the Fair Labor Standards Act must pay the current Federal minimum wage of $7.25 per hour. &nbsp; Some states set subminimum rates for ",
+          "retrievedAt": "2026-11-24T16:08:25.659Z"
+        },
+        {
+          "field": "tippedCashWage",
+          "label": "DOL WHD — Tipped Minimum Wage",
+          "url": "https://www.dol.gov/agencies/whd/state/minimum-wage/tipped",
+          "quote": "Wyoming 14 | $7.25 | $5.12 | $2.13 | More than $30",
+          "retrievedAt": "2026-11-24T16:08:14.467Z"
+        }
+      ],
+      "verifiedOn": "2026-11-24"
+    }
+  ]
+}
